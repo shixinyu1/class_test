@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+ <script>
+        ;(function(){
+            let html=document.documentElement;
+            html.style.fontSize=html.clientWidth*50/375+'px';
+
+            window.onresize=function(){
+                html.style.fontSize=html.clientWidth*50/375+'px';
+            };
+        })()
+    </script>
+
+<body>
+	<header class="user-submenu">
+        <a href="javascript:;"></a>
+		<h2 class="icon">我的套餐</h2>
+	</header>
+  <section class="user-banner">
+    <img src="img/img-3.png">
+    <ul>
+      <li><h3>时令蔬菜套装6斤装</h3></li>
+      <li><p>￥200</p></li>
+      <li><i>免运费<span>销量：20</span></i></li>
+    </ul>
+    <div>
+      <p>已选：1年52次配送</p>
+    </div>
+  </section>
+<!-- 产品列表 -->
+ <section class="user-list">
+        <div>
+          <h4>自由搭配(只能选6种蔬菜)</h4>
+        </div>
+        <ul>
+          <li class="text"><a href="javascript:;"><img src="img/img-4.png"></a></li>
+          <li class="text2"><a href="javascript:;"><img src="img/img-5.png"></a></li>
+          <li class="text2"><a href="javascript:;"><img src="img/img-5.png"></a></li>
+          <li class="text2"><a href="javascript:;"><img src="img/img-5.png"></a></li>
+          <li class="text"><a href="javascript:;"><img src="img/img-5.png"></a></li>
+          <li class="text2"><a href="javascript:;"><img src="img/img-5.png"></a></li>
+          <li class="text2"><a href="javascript:;"><img src="img/img-5.png"></a></li>
+          <li class="text2"><a href="javascript:;"><img src="img/img-5.png"></a></li>
+        </ul>
+ </section>
+ <!-- 论坛 -->
+ <section class="user-hot">
+   <ul>
+     <li><a href="javascript:;" class="one">商品详情</a></li>
+     <li><a href="javascript:;" class="one2 active">商品介绍</a></li>
+   </ul>
+ </section>
+ <section class="user-tab">
+   <ul>
+    <li><a href="javascript:;" class="btn on">全部</a></li>
+    <li><a href="javascript:;" class="btn2">好评</a></li>
+    <li><a href="javascript:;" class="btn2">中评</a></li>
+    <li><a href="javascript:;" class="btn2">差评</a></li>
+   </ul>
+ </section>
+ <section class="user-news">
+   <img src="img/img-6.png">
+   <b>小明</b>
+   <p>新鲜超值，服务好好</p>
+   <p>2016-11-25</p>
+ </section>
+ <footer class="user-footer">
+   <img src="img/img-7.png">
+   
+   <a href="javascript:;">结算</a>
+   <b>合计：<span>￥200.00</span></b>
+ </footer>
+</body>
+</html>
